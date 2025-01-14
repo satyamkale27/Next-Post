@@ -10,12 +10,8 @@ export function middleware(req) {
   return NextResponse.next();
 }
 
-
 export const config = {
-  matcher: [
-    "/posts",
-    "/posts/:postid",
-  ],
-}
+  matcher: ["/posts/new", "/posts/postid"],
+};
 
 // middleware will run for this paths

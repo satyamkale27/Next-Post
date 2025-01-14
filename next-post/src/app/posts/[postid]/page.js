@@ -27,7 +27,7 @@ export default async function Page({ params }) {
       <div>postid={postid} </div>
       <div>
         {fetchData.map((d) => (
-          <div>{d.id}</div>
+          <div key={d.id}>{d.id}</div>
         ))}
       </div>
     </div>
