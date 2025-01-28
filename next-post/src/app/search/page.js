@@ -7,5 +7,6 @@ const Page = () => {
   const serach = serachParam.get("search");
   return <div>{serach}</div>;
 };
+// http://localhost:3000/search?search=yourSearchValue example
 
 export default Page;
