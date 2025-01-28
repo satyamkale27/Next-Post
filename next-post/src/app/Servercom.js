@@ -15,7 +15,7 @@ const Infoservercom = () => {
       <h1 className="text-center text-red-500">
         data recived from server component using use hook
       </h1>
-      <Clientinfo data={data} />
+      {/* <Clientinfo data={data} /> */}
     </div>
   );
 };
